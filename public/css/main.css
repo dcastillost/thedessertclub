@@ -6,7 +6,7 @@ body {
 
 html { width:100%; height:100%; margin:0; padding:0; }
 
-section {
+.menu-container {
   margin: 40px auto;
   text-align: center;
 }
@@ -31,7 +31,7 @@ section {
   background-size: cover;
 }
 
-.hero.is-info .navbar-link.is-active, .hero.is-info .navbar-link:hover, .hero.is-info a.navbar-item.is-active, .hero.is-info a.navbar-item:hover  {
+ .hero.is-info a.navbar-item.is-active, .hero.is-info a.navbar-item:hover  {
   background-color: transparent;
   color: #fff;
 }
