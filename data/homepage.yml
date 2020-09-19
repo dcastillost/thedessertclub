@@ -99,3 +99,7 @@ contact:
   facebook_link: "https://www.facebook.com/thedesssertclub"
   instagram_link: "https://www.instagram.com/the_desssert_club/"
   form_action : "mailto:tdessertclub@gmail.com"
+
+################ Footer #######################
+footer:
+  location: "Torreón, Coahuila. 🇲🇽"
