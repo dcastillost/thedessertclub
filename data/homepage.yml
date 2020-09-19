@@ -1,0 +1,100 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/hero-background.jpg"
+  overlay : true
+
+################### Gallery ###################
+galeria:
+  enable : true
+  title : "Nuestras creaciones"
+  images:
+    - "images/the_dessert_club/cupcakes.jpg"
+    - "images/the_dessert_club/cupcakes-2.jpg"
+    - "images/the_dessert_club/fresas-con-chocolate-2.jpg"
+    - "images/the_dessert_club/galletas.jpg"
+    - "images/the_dessert_club/galletas-smores-2.jpg"
+    - "images/the_dessert_club/pay-queso-con-fruta-2.jpg"
+    - "images/the_dessert_club/pay-oreo.jpg"
+    - "images/the_dessert_club/pastel-de-zanahoria-2.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/cooker-img.png"
+  menu_title: "Conócenos"
+  title : "Sobre nosotros"
+  description : "Somos una tienda de postres que se dedica a complacer los gustos de cada cliente. Nos caracterizamos por nuestro compromiso y pasión en la repostería. ¡Compártenos con tus amigos y disfruta!"
+
+################# food Menu ################
+menu:
+  enable : true
+  menu_title: "Menú"
+  menu_1: "images/menu-1.jpg"
+  menu_2: "images/menu-2.jpg"
+  secciones:
+  - subtitulo: "GALLETAS"
+    postres:
+    - title: "SMORES COOKIE"
+      description: "Deliciosa falleta tipo smores con bombones y trozos de chocolate."
+
+    - title: "RED VELVET"
+      description: "Incomparables galletas red velvet con chispas de chocolate (también las puedes pedirlas con nutella)."
+
+    - title: "CHISPAS DE CHOCOLATE CON OREO"
+      description: "Una combinación única de galleta de chispas de chocolate con galleta oreo."
+
+    costos:
+    - description: "Caja con 6 galletas"
+      price: "$85"
+    - description: "Caja con 12 galletas"
+      price: "$150"
+
+  - subtitulo: "CUPCAKES"
+    postres:
+    - title: "VAINILLA"
+      description: "Clásico cupcake de vainilla y frosting de vainilla decorado a tu gusto (*aplican restricciones)."
+
+    - title: "CHOCOLATE"
+      description: "Increíble cupcake de chocolate y frosting de chocolate decorado a tu gusto (*aplican restricciones)."
+
+    - title: "ZANAHORIA"
+      description: "Delicioso y esponjoso cupcake de zanahoria y frostign de queso crema."
+
+    - title: "PEANUT BUTTER"
+      description: "Inigualable sabor de crema de cacahuate con cremoso frosting y cacahuates."
+
+    costos:
+    - description: "Caja con 4 galletas"
+      price: "$60"
+    - description: "Caja con 6 galletas"
+      price: "$80"
+    toppings: "toppings: fresa, granillo, chocolate derretido, M&M's, snicker."
+
+  - subtitulo: "PAYS"
+    postres:
+    - title: "PAY DE QUESO"
+      description: "Nuestro original pay de queso cremoso por dentro con una cubierta crujiente."
+      precio: "$130"
+
+    - title: "PAY DE QUESO CON FRUTA"
+      description: "Delicioso pay de queso con frutas de tu elección en la parte superior (fresas, kiwi, mango, frutos rojos)."
+      precio: "$200"
+
+    - title: "PAY DE LIMÓN"
+      description: "Pay helado de limón con una textura increíble para chuparse los dedos, con crema batida."
+      precio: "$140"
+
+    - title: "PAY DE OREO"
+      description: "Inigualable pay frío de oreo decorado con trozos de galleta."
+      precio: "$180"
+
+################ Contact #######################
+contact:
+  enable : true
+  menu_title: "Contacto"
+  title: "Contáctanos"
+  subtitle: "Ponte en contacto con nosotros a través de nuestras redes sociales."
+  facebook_link: "https://www.facebook.com/thedesssertclub"
+  instagram_link: "https://www.instagram.com/the_desssert_club/"
+  form_action : "mailto:tdessertclub@gmail.com"

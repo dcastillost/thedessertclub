@@ -1,0 +1,10 @@
+baseURL = "http://thedessertclub.com.mx"
+languageCode = "en-us"
+title = "The Dessert Club"
+
+[params]
+  author = "David Castillo"
+  description = "Sitio web de la tienda de postres The Dessert Club. Torreón, Coahuila"
+  logo = "images/logo-no-bg.png"
+  hero-bg = "../images/hero-background-2.jpg"
+  menu = "images/menu-1.jpg"

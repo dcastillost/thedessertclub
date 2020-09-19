@@ -1,0 +1,42 @@
+<div class="scallop-up"></div>
+<section class="container" id="contact-container">
+  <a name="contacto"></a>
+  <div class="container has-text-centered">
+    <div class="columns is-8 is-variable ">
+      <div class="column is-one-half has-text-left">
+        <h1 class="title is-1">{{ site.Data.homepage.contact.title }}</h1>
+        <p class="is-size-4">{{ site.Data.homepage.contact.subtitle }}</p>
+        <div class="social-media">
+          <a href={{ site.Data.homepage.contact.facebook_link }} target="_blank" class="button is-light is-large"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href={{ site.Data.homepage.contact.instagram_link }} target="_blank" class="button is-light is-large"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="column is-one-half has-text-left">
+        <form class="" action={{ site.Data.homepage.contact.form_action }} method="post" enctype="text/plain">
+          <div class="field">
+            <label for="nombre" class="label">Nombre</label>
+            <div class="control">
+              <input class="input is-medium" type="text" name="nombre">
+            </div>
+          </div>
+          <div class="field">
+            <label for="email" class="label">Correo electrónico</label>
+            <div class="control">
+              <input class="input is-medium" type="email" name="email">
+            </div>
+          </div>
+          <div for="mensaje" class="field">
+            <label class="label">Mensaje</label>
+            <div class="control">
+              <textarea class="textarea is-medium" name="mensaje"></textarea>
+            </div>
+          </div>
+          <div class="control">
+            <button type="submit" class="button is-fullwidth is-light has-text-weight-medium is-medium">Enviar mensaje</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="scallop-down"></div>

@@ -1,0 +1,36 @@
+{{ if site.Data.homepage.gallery.enable }}
+{{ with site.Data.homepage.galeria }}
+<div class="scallop-up"></div>
+<section id="galery-container">
+  <div class="columns is-centered" style="padding: 2rem">
+    {{ range .images }}
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-2by1">
+            <img src={{ . }} alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">titulo de postre</p>
+              <p class="subtitle is-6">Descripción de postre</p>
+            </div>
+          </div>
+
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<div class="scallop-down"></div>
+{{ end }}
+{{ end }}

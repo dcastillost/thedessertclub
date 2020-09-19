@@ -1,0 +1,44 @@
+<!-- <section class="hero is-info is-medium is-bold"> -->
+<section class="hero is-info is-fullheight">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="{{ .Site.Params.logo }}" alt="Logo">
+            {{ .Title }}
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="tabs is-right">
+              <ul>
+                <li><a href="#conocenos">{{ site.Data.homepage.about.menu_title }}</a></li>
+                <li><a href="#menu">{{ site.Data.homepage.menu.menu_title }}</a></li>
+                <!-- <li><a href="#blog">{{ site.Data.homepage.blog.menu_title }}</a></li> -->
+                <li><a href="#contacto">{{ site.Data.homepage.contact.menu_title }}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="column is-6 is-offset-3">
+        <h1 class="title">
+          {{ .Title }}
+        </h1>
+        <h2 class="subtitle">
+          {{ .Params.Subtitle }}
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
